@@ -1,0 +1,70 @@
+$w-img:150px;
+$mrgin1:30px;
+$color1:#838383;
+$color2:#e2dfdf ;
+$color3:rgb(24, 23, 23) ;
+$padding1:10px;
+
+
+*{
+    margin: 0;
+}
+
+main{
+    aside{
+        h3{
+            margin: $mrgin1;
+        overflow: hidden;
+        span{
+           color: chartreuse;
+        }
+        }
+        form{
+            div{
+                input{
+                    height: 150px;
+                }
+            }
+
+        }
+    
+        
+    }
+
+
+    article{
+        overflow: auto ;
+     
+        figure{
+            margin-top: $mrgin1 ;
+            img{
+                width: $w-img;
+
+            }
+
+        }
+        #title{
+            color: $color1;
+        } 
+        hr{
+            color: $color3;
+        }
+        #action{
+            a{
+                background-color: $color2;
+                color: $color3 ;
+                border:0;
+                border-radius: 0%; 
+
+            }
+            a:hover{
+                background-color: $color1;
+            }
+        
+           
+           
+       
+
+    }
+}
+}
